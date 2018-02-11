@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-class FloorPlanRater { //written by John
+class FloorPlanRater { //written by John J.
 
    int Area,B1,R1,K1,H1,L1,S1,A1;
    int numB,numR,numH,numL,numS,numK, BArea,RArea,HArea,LArea,SArea,KArea;
@@ -12,6 +12,8 @@ class FloorPlanRater { //written by John
       ori=new Apartment(Area,numB,numR,numH,numL,numS,numK, BArea,RArea,HArea,LArea,SArea,KArea);
    }
    
+   
+   //Apartment constructor is probably wrong, I'll change it accordingly later.
    
    public ArrayList<Apartment> rank(ArrayList<Apartment> L2){
    
@@ -167,7 +169,7 @@ class FloorPlanRater { //written by John
          spotNum.add(v,v);
       }
       
-      //// problem here
+
          
          int u;
       for(int y=0;y<ranking2.size();y++){
